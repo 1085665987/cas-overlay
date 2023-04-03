@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.zhy.cas.configurer.JdbcPropertiesConfigurer,\
+  org.apereo.cas.config.CasEmbeddedContainerTomcatConfiguration,\
+  com.zhy.cas.authentication.CaptchaAuthenticationEventExecutionPlanConfigurer,\
+  com.zhy.cas.configurer.CaptchaWebflowConfiguration,\
+  com.zhy.cas.utils.KaptchaConfig
+
+
