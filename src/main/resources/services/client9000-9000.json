@@ -1,0 +1,9 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^(https|imaps|http)://127.0.0.1:9000.*",
+  "name" : "client9000",
+  "id" : 9000,
+  "description" : "这是9000端口客户端",
+  "evaluationOrder" : 10,
+  "theme" : "client9000"
+}
